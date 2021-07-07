@@ -1,6 +1,6 @@
 {
   "name": "nonimageapi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An image api for you to have fun",
   "main": "index.js",
   "directories": {
