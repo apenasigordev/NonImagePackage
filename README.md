@@ -22,8 +22,9 @@ images.cats() // Set json to true or false (Optional)
 - More functions for our API
 
 # Thanks to contributors
-<center>
+
 [M. Experimental](https://twitter.com/m_experimental?s=09)
+
 [ImmaUGC](https://github.com/ImmaUgc)
+
 [ApenasIgorDev](https://github.com/apenasigordev)
-</center>
