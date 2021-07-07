@@ -16,14 +16,14 @@ return url + `fake-message?avatar=${avatar}&username=${username}&text=${msg}&bot
 async memes(json) {
   if(json) {
     fetch(url + `memes?json=true`).then(res => res.json()).then(data => {
-      return data;
+      return data.post;
     });
   } else return url + `memes`;
 };
 async cats(json) {
   if(json) {
     fetch(url + `cats?json=true`).then(res => res.json()).then(data => {
-      return data;
+      return data.post;
     });
   } else return url + `cats`;
 };

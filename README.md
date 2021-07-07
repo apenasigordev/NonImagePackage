@@ -6,8 +6,10 @@
 ```
 const NonImageApi = require('nonimageapi');
 const images = new NonImageApi();
-images.memes() // Set json to true or false (Optional)
-images.cats() // Set json to true or false (Optional)
+async() {
+await images.memes() // Set json to true or false (Optional)
+await images.cats() // Set json to true or false (Optional)
+}();
 ```
 
 -----
@@ -16,7 +18,7 @@ images.cats() // Set json to true or false (Optional)
 
 `memes(<Json>)` - Take meme from a reddit and turn it into an image (Json optional).
 `cats(<Json>)` - Take pictures of cats from reddit [Cats](https://www.reddit.com/r/cats) (Json optional).
-`fakemsg(<message>, <username>, <avatar>, <bot>)` - Creates a fake Discord message / Direct from our api website (Bot optional)
+`fakemsg(<message>, <username>, <avatar>, <bot>)` - Creates a fake Discord message / Direct from our api website (Bot optional) : (In construction...);
 
 # Coming Soon
 - More functions for our API
