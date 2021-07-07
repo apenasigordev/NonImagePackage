@@ -1,0 +1,22 @@
+{
+  "name": "nonimageapi",
+  "version": "1.0.1",
+  "description": "An image api for you to have fun",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "node ./examples/test.js"
+  },
+  "keywords": [
+    "api",
+    "discord",
+    "images"
+  ],
+  "author": "Igor, ImmaUgc, M.Experimental",
+  "license": "ISC",
+  "dev-dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
