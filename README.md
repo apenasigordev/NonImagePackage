@@ -23,7 +23,7 @@ images.cats() // Set json to true or false (Optional)
 
 # Thanks to contributors
 
-[M. Experimental](https://twitter.com/m_experimental?s=09)
+[M. Experimental](https://github.com/experimentaljs)
 
 [ImmaUGC](https://github.com/ImmaUgc)
 
