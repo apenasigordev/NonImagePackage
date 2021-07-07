@@ -1,2 +1,1 @@
-node index.js
-node ./examples/test.js
+echo What are you looking at here?
