@@ -1,9 +1,10 @@
 const fetch = require('node-fetch');
 let url = "https://nonimageapi.apenasigor.repl.co/api/v1/";
-
+const superagent = require('superagent');
 class Image {
-  constructor(Image) {
+  constructor() {
     this.ImageApi = Image;
+
   }
 fakemsg(msg, username, avatar, bot) {
     if(!bot) bot = false; // Retorna falso caso usuário não coloque "bot"
@@ -13,19 +14,13 @@ fakemsg(msg, username, avatar, bot) {
     
 return url + `fake-message?avatar=${avatar}&username=${username}&text=${msg}&bot=${bot}`; // Retorna link da mensagem
 }
-async memes(json) {
-  if(json) {
-    fetch(url + `memes?json=true`).then(res => res.json()).then(data => {
-      return data.post;
-    });
-  } else return url + `memes`;
-};
-async cats(json) {
-  if(json) {
-    fetch(url + `cats?json=true`).then(res => res.json()).then(data => {
-      return data.post;
-    });
-  } else return url + `cats`;
-};
+async memes() {
+const {body} = await superagent.get(url + "memes");
+return body;
+}
+async cats() {
+const {body} = await superagent.get(url + "cats");
+return body;
+}
 }
 module.exports = Image;

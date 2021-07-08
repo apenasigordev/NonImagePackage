@@ -6,12 +6,23 @@
 ```
 const NonImageApi = require('nonimageapi');
 const images = new NonImageApi();
-async() {
-await images.memes() // Set json to true or false (Optional)
-await images.cats() // Set json to true or false (Optional)
-}();
+async function memes() {
+let meme = await images.memes();
+console.log(meme); // Returns json url
+}
+meme();
 ```
 
+```
+const NonImageApi = require('nonimageapi');
+const images = new NonImageApi();
+
+async function cats() {
+  let cat = await images.cats();
+  console.log(cat)
+}
+cats()
+```
 -----
 
 # All functions
@@ -26,6 +37,7 @@ await images.cats() // Set json to true or false (Optional)
 # Thanks to contributors
 
 [M. Experimental](https://github.com/experimentaljs)
+
 [ImmaUGC](https://github.com/ImmaUgc)
 
 [ApenasIgorDev](https://github.com/apenasigordev)
