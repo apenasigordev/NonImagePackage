@@ -6,6 +6,7 @@
   "directories": {
     "example": "examples"
   },
+  "repository": "apenasigordev/nonimagepackage",
   "scripts": {
     "test": "node ./examples/test.js",
     "build": "tsc"
