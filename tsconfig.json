@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",              
+    "strict": true,
+    "skipLibCheck": true,             
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true
+  },
+    "main": "index.ts",
+    "include": ["src/*.ts"],
+"exclude": ["node_modules"],
+"files":[
+  "index.ts"
+   ]
+}
