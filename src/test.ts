@@ -1,7 +1,7 @@
-import nonimageapi = from './index.ts';
-import image = new nonimageapi();
-
-let test = images.fakemsg("bomdia", "nome-legal", null, true);
-console.log(test); 
-let json = images.memes(true);
+import nonimageapi from './index';
+const images = new nonimageapi();
+ 
+ async function test() {
+let json = await images.memes();
 console.log(json);
+}

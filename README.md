@@ -33,6 +33,8 @@ cats()
 
 # Coming Soon
 - More functions for our API
+- Typescript 
+- AND MORE!!
 
 # Thanks to contributors
 
