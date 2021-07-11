@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "description": "An image api for you to have fun",
   "main": "index.js",
+  "types": "src/index.ts",
   "directories": {
     "example": "examples"
   },
@@ -18,9 +19,6 @@
   ],
   "author": "Igor, ImmaUgc, M.Experimental",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "dependencies": {
     "@types/node-fetch": "^2.5.11",
     "node-fetch": "^2.6.1",
