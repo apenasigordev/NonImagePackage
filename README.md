@@ -26,10 +26,8 @@ cats()
 -----
 
 # All functions
-
-`memes(<Json>)` - Take meme from a reddit and turn it into an image (Json optional).
-`cats(<Json>)` - Take pictures of cats from reddit [Cats](https://www.reddit.com/r/cats) (Json optional).
-`fakemsg(<message>, <username>, <avatar>, <bot>)` - Creates a fake Discord message / Direct from our api website (Bot optional) : (In construction...);
+`memes()` - Return a reddit meme image url (json)
+`cats()` - Return a reddit cat image url (json)
 
 # Coming Soon
 - More functions for our API
